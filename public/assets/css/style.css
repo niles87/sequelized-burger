@@ -1,15 +1,16 @@
 html {
-  background: linear-gradient(#7e3003, #ad7202, #d89400, #fded05);
+  background: radial-gradient(#350061, #621fa1, #8c32c0, #f06bfc);
 }
 
 body {
   font-family: sans-serif;
+  color: #fff;
 }
 h1 {
   text-align: center;
   font-size: 50px;
-  color: #e0bf00;
-  text-shadow: 2px 2px 3px #f35107;
+  color: #014e08;
+  text-shadow: 2px 2px 3px #fc4fba;
 }
 ul {
   list-style-type: none;
@@ -26,11 +27,15 @@ button {
   padding: 5px;
   border-radius: 5px;
 }
+img {
+  height: 75px;
+}
 
 .container {
-  padding-top: 8%;
+  padding-top: 10%;
   margin: auto;
   width: 60%;
+  height: 90vh;
 }
 .flex-container {
   width: 100%;

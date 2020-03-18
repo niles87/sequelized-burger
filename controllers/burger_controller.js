@@ -17,10 +17,6 @@ module.exports = function(app) {
   });
 
   app.put("/api/burgers/:id", (req, res) => {
-    console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-    console.log(req.params.id);
-    console.log(req.body.devoured);
-    console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     db.Burger.update(
       {
         devoured: req.body.devoured,
